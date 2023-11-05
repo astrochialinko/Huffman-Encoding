@@ -34,6 +34,10 @@ public class Node {
 	public String getCode() {
 		return code;
 	}
+
+	public void setCode(String newCode){
+		code = newCode;
+	}
 	
 	public Node left() {
 		return leftChild;
