@@ -14,4 +14,16 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/ShannonFano.java</name>
+			<type>1</type>
+			<location>C:/Users/andre/Documents/gitrepos/Huffman-Encoding/src/ShannonFano.java</location>
+		</link>
+		<link>
+			<name>src/ShannonFanoTest.java</name>
+			<type>1</type>
+			<location>C:/Users/andre/Documents/gitrepos/Huffman-Encoding/src/ShannonFanoTest.java</location>
+		</link>
+	</linkedResources>
 </projectDescription>
