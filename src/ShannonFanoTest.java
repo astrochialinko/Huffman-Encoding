@@ -9,6 +9,8 @@ public class ShannonFanoTest {
 
 	@Test
     public void testShannonFano() {
+		// Test cases involve passing an array of symbols with an adjacent array of their frequencies
+		
         // Test case 1
         runShannonFanoTest(new String[]{"A", "B", "C", "D", "E"}, new int[]{30, 25, 20, 15, 10});
 
@@ -30,6 +32,8 @@ public class ShannonFanoTest {
         				   new int[]{30, 15, 10, 10, 8, 6, 5, 5, 2, 2, 2, 2, 2, 1});
         
         
+        // Compare hand-drawn codes (using the same logic) to the ones produced by the algorithm
+        // Note: the symbols with equal frequencies may receive each others' codes
         assertEquals("00", nodes.get(0).getCode());
         assertEquals("010", nodes.get(1).getCode());
         assertEquals("011", nodes.get(2).getCode());

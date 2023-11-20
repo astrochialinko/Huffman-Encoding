@@ -1,3 +1,7 @@
+/*
+ * Our MinHeap structure is to be used in the Huffman Encoding algorithm to select the
+ * two symbols with the lowest value to combine them into a new Node.
+ */
 
 public class MinHeap {
 	

@@ -1,4 +1,8 @@
-//
+/*
+ * This class contains the Node object that will be used to contain values and codes of 
+ * nodes that are added to our Huffman tree and our Shannon-Fano structure.
+ */
+
 public class Node {
 	
 	private String name;
